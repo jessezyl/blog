@@ -3,7 +3,7 @@
  */
 
 function monkey(){
-    console.log("i am monkey.");
+    console.log("i am a monkey.");
 }
 
 var monkey_patch = monkey;
@@ -13,7 +13,7 @@ monkey = function(){
     console.log("i eat banana!");
 };
 
-monkey();   //i am monkey.
+monkey();   //i am a monkey.
             //i eat banana!
 
 monkey();   //i am monkey.
